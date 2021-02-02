@@ -47,8 +47,6 @@ namespace ColeccionLinkedList
 
         public static void imprimir(LinkedList<int> lista)
         {
-           
-
             for (LinkedListNode<int> nodo = lista.First; nodo != null; nodo = nodo.Next)
             {
                 int valor = nodo.Value;
